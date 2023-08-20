@@ -12,7 +12,8 @@
 * For the backend logic I've user Service-Repository design pattern, registered by a specific Service Provider
 * Main functionality is provided through the BloggerServiceProvider.php, that registers IUserRepository, IPostRepository, IBloggerService and IExternalBlogger
 * In the authorized domain, posts are taken for the Authenticated User only, and in the public domain(homepage) all of the websites blog posts are shown.
-* In routes/api.php I have registered a single GET route ('/posts') that gets a restfull json api for all the posts in the database
+* The user dashboard is at the Post resource root route ('/post')
+* In routes/api.php I have registered a single GET route ('/api/posts') that gets a restfull json api for all the posts in the database
 * The IExternalBlogger contract provides call method for the external api given in the task requirement (https://www.risklick.ch/api/v2/blogs/), and is implemented with Request made with GuzzleHttp/Client
 * In Console/Commands CallExternalBlogger.php command is created and handles the ExternalBlogger service to fetch posts from api and the BloggerService to insert them in the database, although I couldn't get the responses format (fields, and etc), because the link returns 404 (resource not found), so this was not tested completely
 ## Steps to run the application
