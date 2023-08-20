@@ -16,8 +16,8 @@
 * The IExternalBlogger contract provides call method for the external api given in the task requirement (https://www.risklick.ch/api/v2/blogs/), and is implemented with Request made with GuzzleHttp/Client
 * In Console/Commands CallExternalBlogger.php command is created and handles the ExternalBlogger service to fetch posts from api and the BloggerService to insert them in the database, although I couldn't get the responses format (fields, and etc), because the link returns 404 (resource not found), so this was not tested completely
 ## Steps to run the application
-* git clone ''
-* * In the root directory BloggerApp execute: <code>composer install</code> for downloading packagist dependencies
+* git clone https://github.com/smisevski/BloggerApp.git
+* In the root directory BloggerApp execute: <code>composer install</code> for downloading packagist dependencies
 * In the root directory BloggerApp execute: <code>php artisan migrate</code> for the database migrations
 * In the root directory BloggerApp execute: <code>npm run dev</code> for the vite assets compiler
 * In the browser go to http://localhost/BloggerApp/public for the applications entry point/ homepage.
