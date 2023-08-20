@@ -24,6 +24,7 @@
 ## Notes:
 * I'm sorry for the poor layout design with Bootstrap, I was doing this part quickly for demonstration
 * I'm sorry for being little late, I've had a sick leave for few days due to a minor health issue
+* Also for Docker, I have some experience in using docker container environments with docker-compose, but I did not have it configured on my private local machine atm 'though, and chose my to go windows env (XAMPP)
 * Thank you for your opportunity!
 
 
