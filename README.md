@@ -21,6 +21,10 @@
 * In the root directory BloggerApp execute: <code>php artisan migrate</code> for the database migrations
 * In the root directory BloggerApp execute: <code>npm run dev</code> for the vite assets compiler
 * In the browser go to http://localhost/BloggerApp/public for the applications entry point/ homepage.
+## Notes:
+* I'm sorry for the poor layout design with Bootstrap, I was doing this part quickly for demonstration
+* I'm sorry for being little late, I've had a sick leave for few days due to a minor health issue
+* Thank you for your opportunity!
 
 
 
